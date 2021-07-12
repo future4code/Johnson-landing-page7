@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topo-site {
+  background-color: #f24843;
+  color: white;
+  text-align: center;
+  padding: 0.2em;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.topo-site button {
+  position: absolute;
+  right: 1em;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 30px;
+  width: 50px;
+  font-family: fantasy;
+  font-size: 0.7em;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgb black;
+}
+
+.topo-site button:hover {
+  background: #f57773;
+  transition: 1s;
+}
+
+.imagem-meio {
+  background-image: url("imagens/mulher-carro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 94vh;
+  width: 100vw;
+}
+
+.texto-site img {
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.texto-site {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 4em;
+  padding: 1em;
+  color: #f24843;
+  font-style: italic;
+}
+
+.texto-site p {
+  text-shadow: 3px 3px black;
+  word-break: normal;
+}
+@media screen and (max-device-width: 800px) {
+  .texto-site {
+    font-size: 2em;
+  }
+}
