@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+}
+
+.botao-principal {
+  color: #f24843;
+  border: 1px solid;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em 0.7em;
+  margin-top: 0.3em;
+  margin-left: 0.3em;
+  text-decoration: none;
+  border-color: #eb7571;
+  background: linear-gradient(to bottom, #e96c68 5%, #c46360 100%);
+  box-shadow: inset 0px 1px 0px 0px #f8cccb;
+  color: black;
+  text-shadow: 0px 1px 0px #970904;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .botao-principal {
+    margin-left: 1.2em;
+  }
+}
+
+.botao-missao {
+  color: #f24843;
+  border: 1px solid;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em 0.7em;
+  margin-top: 0.3em;
+  text-decoration: none;
+  border-color: #eb7571;
+  background: linear-gradient(to bottom, #e96c68 5%, #c46360 100%);
+  box-shadow: inset 0px 1px 0px 0px #f8cccb;
+  color: black;
+  text-shadow: 0px 1px 0px #970904;
+}
+
+.botao-trbl-conosco {
+  color: #f24843;
+  border: 1px solid;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em 0.7em;
+  margin-top: 0.3em;
+  text-decoration: none;
+  border-color: #eb7571;
+  background: linear-gradient(to bottom, #e96c68 5%, #c46360 100%);
+  box-shadow: inset 0px 1px 0px 0px #f8cccb;
+  color: black;
+  text-shadow: 0px 1px 0px #970904;
+}
+
+.botao-principal:hover {
+  background: #f57773;
+  transition: 1s;
+}
+
+.botao-missao:hover {
+  background: #f57773;
+  transition: 1s;
+}
+
+.botao-trbl-conosco:hover {
+  background: #f57773;
+  transition: 1s;
+}
+
+.topo-site {
+  background-color: #f24843;
+  color: white;
+  text-align: center;
+  padding: 0.7em;
+  font-size: 2em;
+  font-style: italic;
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 0.5em;
+  text-shadow: 3px 3px black;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .topo-site {
+    font-size: 1.5em;
+  }
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.7em;
+  text-align: center;
+  column-gap: 1.5em;
+  font-size: 2em;
+  font-family: sans-serif;
+  text-shadow: 0.5px 0.5px #f24843;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #container {
+    grid-template-columns: 1fr;
+    font-size: 0.8em;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+#item1 {
+  border: solid black 0.6em;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+#item2 {
+  border: solid black 0.6em;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+#container img {
+  width: 7em;
+  height: 5em;
+  border-radius: 0.5em;
+}
+
+#container button {
+  height: 2em;
+  width: 14em;
+  padding: 0.3em;
+  background-color: #f24843;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 3px 2px rgb black;
+}
+
+#container button:hover {
+  background: #f57773;
+  transition: 1s;
+}
+
+.titulo-catalogo {
+  background: #f24843;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.rodape-meio {
+  display: flex;
+  justify-content: space-between;
+  background: #f24843;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 7em;
+  font-size: 1em;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .rodape-meio {
+    font-size: 0.5em;
+  }
+}
+
+.conteudo {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  padding-top: 10px;
+}
+
+section .catalogo-carros {
+  width: 10vw;
+  padding: 100px;
+}
+
+section .card-itens {
+  height: 400px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  grid-gap: 10px;
+}
+
+.card-itens img {
+  width: 65%;
+}
+
+.card-itens p {
+  width: 90%;
+  color: black;
+}
+
+.card-itens button {
+  width: 90%;
+  padding: 10px 0px;
+  border: none;
+  background-color: #f24843;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  main {
+    align-items: center;
+    text-align: center;
+  }
+}
+footer {
+  display: flex;
+  margin: 10px;
+  background-color: #f24843;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape1 {
+  margin-top: 10em;
+  background-color: #f24843;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+}
+
+.escrita-rodape {
+  color: white;
+  justify-content: center;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+
+.redes-sociais {
+  display: flex;
+  cursor: grab;
+  height: 13em;
+  width: 13em;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 50%;
+  padding: 8px;
+}
