@@ -9,6 +9,7 @@ Pagina missão -
 input funcionando para o botão >voltar< que retorna a pagina inicial
 
 Pagina trabalhe conosco
+input funcionando botão >voltar< que retorna a pagina inicial
 formulario para enviar curriculo 
 preenchivel
 - anexar arquivo input funcionando
