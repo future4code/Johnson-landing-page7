@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  margin: 0.5em;
+  background-color: #f24843;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6em;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    text-align: center;
+  }
+}
+
+.rodape2 {
+  margin-top: 0;
+  background-color: #f24843;
+  height: 5em;
+  display: flex;
+  justify-content: end;
+}
+
+.voltar {
+  color: white;
+  font-style: oblique;
+  justify-content: center;
+  padding: 0px 4px;
+  display: flex;
+  width: 100px;
+}
+
+.bloco1-escrita {
+  padding: 2em;
+  background-color: #f24843;
+  height: 7em;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .bloco1-escrita {
+    font-size: 0.4em;
+  }
+}
+
+.bloco1-escrita h1 {
+  font-size: 3em;
+  align-items: center;
+}
+
+.beneficios-4cars {
+  color: #f24843;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-left: 1.3em;
+  margin-bottom: 3em;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .beneficios-4cars {
+    font-size: 1em;
+  }
+}
+
+.formulario-curriculo {
+  margin: 20px;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: #f24843;
+  margin-left: 10%;
+}
+
+input,
+select,
+button {
+  border-radius: 5px;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #f24843;
+  display: block;
+}
+
+.campo {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.campo input[type="nome"],
+.campo input[type="email"] {
+  padding: 0.2em;
+  border: 1px solid #f24843;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0.2);
+  display: block;
+}
+
+.campo selection option {
+  padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: #e0e0f8;
+}
+
+label {
+  color: #f24843;
+  display: block;
+}
+
+.botao {
+  justify-content: center;
+  font-size: 1.2em;
+  background: #f24843;
+  border: 0;
+  margin-bottom: 20px;
+  margin: 50px;
+  color: white;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0.5);
+  top: 90%;
+  left: 80%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: #ccbbff;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 00.2);
+  text-shadow: none;
+}
